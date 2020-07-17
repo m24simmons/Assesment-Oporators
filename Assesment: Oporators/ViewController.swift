@@ -16,5 +16,20 @@ class ViewController: UIViewController {
     }
 
 
+    @IBOutlet weak var firstnumber: UITextField!
+    
+    
+    @IBOutlet weak var secondNumber: UITextField!
+    
+    @IBAction func calculationButton(_ sender: Any) {
+        
+        let firstText = Int(firstNumberText.text!){
+        if let secondText = Int(secondtext.text!){
+        }
+    }
+    
+    
+    @IBOutlet weak var output: UILabel!
+    
 }
 
