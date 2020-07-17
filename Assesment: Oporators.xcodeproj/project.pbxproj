@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F86164924C20F1500FD5578 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F86164824C20F1500FD5578 /* AppDelegate.swift */; };
+		3F86164B24C20F1500FD5578 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F86164A24C20F1500FD5578 /* SceneDelegate.swift */; };
+		3F86164D24C20F1500FD5578 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F86164C24C20F1500FD5578 /* ViewController.swift */; };
+		3F86165024C20F1500FD5578 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F86164E24C20F1500FD5578 /* Main.storyboard */; };
+		3F86165224C20F1600FD5578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F86165124C20F1600FD5578 /* Assets.xcassets */; };
+		3F86165524C20F1600FD5578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F86165324C20F1600FD5578 /* LaunchScreen.storyboard */; };
+		3F86166024C20F1600FD5578 /* Assesment__OporatorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F86165F24C20F1600FD5578 /* Assesment__OporatorsTests.swift */; };
+		3F86166B24C20F1600FD5578 /* Assesment__OporatorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F86166A24C20F1600FD5578 /* Assesment__OporatorsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F86165C24C20F1600FD5578 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F86163D24C20F1500FD5578 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F86164424C20F1500FD5578;
+			remoteInfo = "Assesment: Oporators";
+		};
+		3F86166724C20F1600FD5578 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F86163D24C20F1500FD5578 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F86164424C20F1500FD5578;
+			remoteInfo = "Assesment: Oporators";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F86164524C20F1500FD5578 /* Assesment: Oporators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assesment: Oporators.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F86164824C20F1500FD5578 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F86164A24C20F1500FD5578 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F86164C24C20F1500FD5578 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F86164F24C20F1500FD5578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F86165124C20F1600FD5578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F86165424C20F1600FD5578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F86165624C20F1600FD5578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F86165B24C20F1600FD5578 /* Assesment: OporatorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assesment: OporatorsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F86165F24C20F1600FD5578 /* Assesment__OporatorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assesment__OporatorsTests.swift; sourceTree = "<group>"; };
+		3F86166124C20F1600FD5578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F86166624C20F1600FD5578 /* Assesment: OporatorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assesment: OporatorsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F86166A24C20F1600FD5578 /* Assesment__OporatorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assesment__OporatorsUITests.swift; sourceTree = "<group>"; };
+		3F86166C24C20F1600FD5578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F86164224C20F1500FD5578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F86165824C20F1600FD5578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F86166324C20F1600FD5578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F86163C24C20F1500FD5578 = {
+			isa = PBXGroup;
+			children = (
+				3F86164724C20F1500FD5578 /* Assesment: Oporators */,
+				3F86165E24C20F1600FD5578 /* Assesment: OporatorsTests */,
+				3F86166924C20F1600FD5578 /* Assesment: OporatorsUITests */,
+				3F86164624C20F1500FD5578 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F86164624C20F1500FD5578 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F86164524C20F1500FD5578 /* Assesment: Oporators.app */,
+				3F86165B24C20F1600FD5578 /* Assesment: OporatorsTests.xctest */,
+				3F86166624C20F1600FD5578 /* Assesment: OporatorsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F86164724C20F1500FD5578 /* Assesment: Oporators */ = {
+			isa = PBXGroup;
+			children = (
+				3F86164824C20F1500FD5578 /* AppDelegate.swift */,
+				3F86164A24C20F1500FD5578 /* SceneDelegate.swift */,
+				3F86164C24C20F1500FD5578 /* ViewController.swift */,
+				3F86164E24C20F1500FD5578 /* Main.storyboard */,
+				3F86165124C20F1600FD5578 /* Assets.xcassets */,
+				3F86165324C20F1600FD5578 /* LaunchScreen.storyboard */,
+				3F86165624C20F1600FD5578 /* Info.plist */,
+			);
+			path = "Assesment: Oporators";
+			sourceTree = "<group>";
+		};
+		3F86165E24C20F1600FD5578 /* Assesment: OporatorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F86165F24C20F1600FD5578 /* Assesment__OporatorsTests.swift */,
+				3F86166124C20F1600FD5578 /* Info.plist */,
+			);
+			path = "Assesment: OporatorsTests";
+			sourceTree = "<group>";
+		};
+		3F86166924C20F1600FD5578 /* Assesment: OporatorsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F86166A24C20F1600FD5578 /* Assesment__OporatorsUITests.swift */,
+				3F86166C24C20F1600FD5578 /* Info.plist */,
+			);
+			path = "Assesment: OporatorsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F86164424C20F1500FD5578 /* Assesment: Oporators */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F86166F24C20F1600FD5578 /* Build configuration list for PBXNativeTarget "Assesment: Oporators" */;
+			buildPhases = (
+				3F86164124C20F1500FD5578 /* Sources */,
+				3F86164224C20F1500FD5578 /* Frameworks */,
+				3F86164324C20F1500FD5578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Assesment: Oporators";
+			productName = "Assesment: Oporators";
+			productReference = 3F86164524C20F1500FD5578 /* Assesment: Oporators.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F86165A24C20F1600FD5578 /* Assesment: OporatorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F86167224C20F1600FD5578 /* Build configuration list for PBXNativeTarget "Assesment: OporatorsTests" */;
+			buildPhases = (
+				3F86165724C20F1600FD5578 /* Sources */,
+				3F86165824C20F1600FD5578 /* Frameworks */,
+				3F86165924C20F1600FD5578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F86165D24C20F1600FD5578 /* PBXTargetDependency */,
+			);
+			name = "Assesment: OporatorsTests";
+			productName = "Assesment: OporatorsTests";
+			productReference = 3F86165B24C20F1600FD5578 /* Assesment: OporatorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F86166524C20F1600FD5578 /* Assesment: OporatorsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F86167524C20F1600FD5578 /* Build configuration list for PBXNativeTarget "Assesment: OporatorsUITests" */;
+			buildPhases = (
+				3F86166224C20F1600FD5578 /* Sources */,
+				3F86166324C20F1600FD5578 /* Frameworks */,
+				3F86166424C20F1600FD5578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F86166824C20F1600FD5578 /* PBXTargetDependency */,
+			);
+			name = "Assesment: OporatorsUITests";
+			productName = "Assesment: OporatorsUITests";
+			productReference = 3F86166624C20F1600FD5578 /* Assesment: OporatorsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F86163D24C20F1500FD5578 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Student;
+				TargetAttributes = {
+					3F86164424C20F1500FD5578 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					3F86165A24C20F1600FD5578 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3F86164424C20F1500FD5578;
+					};
+					3F86166524C20F1600FD5578 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3F86164424C20F1500FD5578;
+					};
+				};
+			};
+			buildConfigurationList = 3F86164024C20F1500FD5578 /* Build configuration list for PBXProject "Assesment: Oporators" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F86163C24C20F1500FD5578;
+			productRefGroup = 3F86164624C20F1500FD5578 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F86164424C20F1500FD5578 /* Assesment: Oporators */,
+				3F86165A24C20F1600FD5578 /* Assesment: OporatorsTests */,
+				3F86166524C20F1600FD5578 /* Assesment: OporatorsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F86164324C20F1500FD5578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F86165524C20F1600FD5578 /* LaunchScreen.storyboard in Resources */,
+				3F86165224C20F1600FD5578 /* Assets.xcassets in Resources */,
+				3F86165024C20F1500FD5578 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F86165924C20F1600FD5578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F86166424C20F1600FD5578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F86164124C20F1500FD5578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F86164D24C20F1500FD5578 /* ViewController.swift in Sources */,
+				3F86164924C20F1500FD5578 /* AppDelegate.swift in Sources */,
+				3F86164B24C20F1500FD5578 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F86165724C20F1600FD5578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F86166024C20F1600FD5578 /* Assesment__OporatorsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F86166224C20F1600FD5578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F86166B24C20F1600FD5578 /* Assesment__OporatorsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F86165D24C20F1600FD5578 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F86164424C20F1500FD5578 /* Assesment: Oporators */;
+			targetProxy = 3F86165C24C20F1600FD5578 /* PBXContainerItemProxy */;
+		};
+		3F86166824C20F1600FD5578 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F86164424C20F1500FD5578 /* Assesment: Oporators */;
+			targetProxy = 3F86166724C20F1600FD5578 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F86164E24C20F1500FD5578 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F86164F24C20F1500FD5578 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F86165324C20F1600FD5578 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F86165424C20F1600FD5578 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F86166D24C20F1600FD5578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F86166E24C20F1600FD5578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F86167024C20F1600FD5578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Assesment: Oporators/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Megan-Simmons.Assesment--Oporators";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F86167124C20F1600FD5578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Assesment: Oporators/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Megan-Simmons.Assesment--Oporators";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F86167324C20F1600FD5578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Assesment: OporatorsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Megan-Simmons.Assesment--OporatorsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assesment: Oporators.app/Assesment: Oporators";
+			};
+			name = Debug;
+		};
+		3F86167424C20F1600FD5578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Assesment: OporatorsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Megan-Simmons.Assesment--OporatorsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assesment: Oporators.app/Assesment: Oporators";
+			};
+			name = Release;
+		};
+		3F86167624C20F1600FD5578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Assesment: OporatorsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Megan-Simmons.Assesment--OporatorsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Assesment: Oporators";
+			};
+			name = Debug;
+		};
+		3F86167724C20F1600FD5578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Assesment: OporatorsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Megan-Simmons.Assesment--OporatorsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Assesment: Oporators";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F86164024C20F1500FD5578 /* Build configuration list for PBXProject "Assesment: Oporators" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F86166D24C20F1600FD5578 /* Debug */,
+				3F86166E24C20F1600FD5578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F86166F24C20F1600FD5578 /* Build configuration list for PBXNativeTarget "Assesment: Oporators" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F86167024C20F1600FD5578 /* Debug */,
+				3F86167124C20F1600FD5578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F86167224C20F1600FD5578 /* Build configuration list for PBXNativeTarget "Assesment: OporatorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F86167324C20F1600FD5578 /* Debug */,
+				3F86167424C20F1600FD5578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F86167524C20F1600FD5578 /* Build configuration list for PBXNativeTarget "Assesment: OporatorsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F86167624C20F1600FD5578 /* Debug */,
+				3F86167724C20F1600FD5578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F86163D24C20F1500FD5578 /* Project object */;
+}
